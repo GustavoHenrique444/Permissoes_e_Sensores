@@ -119,7 +119,9 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 	<summary><h1>Fontes Usadas</h1></summary>
 	<p>
 	Aqui estão as fontes ultilizadas para fazer a realização da pesquisa:
+		<br>
 		https://developer.android.com/guide/components/intents-filters?hl=pt-br#Types
+		<br>
 		https://mariovalney.com/aula-10-como-mudar-de-activity-com-intents/
 	</p>
 	
