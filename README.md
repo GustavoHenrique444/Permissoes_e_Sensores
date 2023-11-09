@@ -1,43 +1,24 @@
-<h1 align=center>EcoManga</h1>
+<h1 align=center>Permissões e Sensores</h1>
 
 <h3 align="center">Integrantes: Gustavo Henrique da Silva Souza e Guilherme Sola Gárcia</h3>
+<br>
+<p align=center>		
+Esta atividade envolve pesquisar e fornecer explicações simples sobre os seguintes tópicos:
 
-<p align=justify>		
-    Nosso aplicativo oferece uma experiência completa e educativa focada na preservação ambiental e reciclagem. Os usuários podem criar uma conta na "Tela 1: Login" para acessar todas as funcionalidades. Após o login, eles exploram o "Menu" na "Tela 2", onde a seção mais empolgante é a "Tela 3: Mangás", que traz histórias interativas e ilustrações envolventes sobre reciclagem. O aplicativo também inclui a "Tela 4: Como Reciclar", ensinando práticas sustentáveis, e a "Tela 5: Recicláveis Diversos", com informações sobre tipos de materiais recicláveis. Uma ferramenta completa para aprender e contribuir para o cuidado do meio ambiente.
+- Identifique as principais permissões necessárias para acessar recursos específicos do seu dispositivo móvel, como câmera, localização e contatos.
+
+- Explorar as ações utilizadas nas intenções implícitas, descrevendo os seus tipos e utilizações em aplicações móveis.
+
+- Analisar os sensores disponíveis nos dispositivos móveis, explicar a sua finalidade e mencionar o tipo de dados fornecidos por cada sensor.
+
+Essas informações são essenciais para que os desenvolvedores de aplicativos móveis entendam como interagir com dispositivos e sistemas operacionais de maneira eficaz e segura.
 </p>
 
 <details>
-   <summary><h1>Destaques</h1></summary>
-    <ul>
-        <li align=justify><strong>Interface Acolhedora:</strong> A tela inicial apresenta um fundo branco e um logotipo amigável "Eco Mangá", dando as boas-vindas aos usuários de forma convidativa.
-        </li>
-        <br>
-        <li align=justify><strong>Exploração Simplificada:</strong> A seção "O que é" fornece explicações claras e acessíveis sobre a importância da reciclagem de papel, ajudando os usuários a compreender seu significado de maneira simples.
-        </li>
-        <br>
-        <li align=justify><strong>Mangás Interativos:</strong> Na seção "Mangás", três "imagebuttons" levam os usuários a histórias ricamente ilustradas e interativas, onde eles podem explorar os processos da reciclagem de papel por meio de personagens cativantes.
-        </li>
-    	<br>
-	<li align=justify><strong>Jornada de Aprendizado:</strong> Os mangás não são apenas histórias, mas também fontes valiosas de conhecimento. Eles fornecem informações detalhadas e práticas sobre a reciclagem de papel, tornando o aprendizado uma experiência envolvente.
-	</li>
-   	<br>
-	<li align=justify><strong>Acessibilidade para Jovens:</strong> Projetado especialmente para adolescentes e crianças, a Eco Mangá oferece uma maneira atraente e inspiradora de ensinar conscientização ambiental desde cedo.
-	</li>
-	<br>
-	<li align=justify><strong>Foco na Sustentabilidade:</strong> O aplicativo tem como objetivo promover a consciência ambiental ao ensinar práticas de reciclagem de papel, incentivando os usuários a adotarem hábitos mais sustentáveis.
-	</li>
-	<br>
-	<li alingn=justify><strong>Design Visualmente Atraente:</strong> As ilustrações coloridas e os personagens carismáticos nos mangás mantêm os usuários envolvidos e entretidos enquanto aprendem.
-	</li>
-	<br>
-	<li alingn=justify><strong>Experiência Educativa Completa:</strong> A Eco Mangá oferece uma experiência completa de aprendizado, permitindo que os usuários explorem, entendam e se comprometam com a reciclagem de papel de maneira significativa.
-	</li>
-	<br>	
-	<li alingn=justify><strong>Aventura Educativa Divertida</strong> Através de uma combinação única de narrativas e conhecimento, o aplicativo oferece uma abordagem divertida para aprender sobre reciclagem de papel.
-	</li>
-     </ul>
-
-Essas características combinadas criam uma experiência atraente e informativa no Eco Mangá, proporcionando aos usuários uma jornada educativa única sobre a reciclagem de papel.
+   <summary><h1>Introdução</h1></summary>
+    <p>	
+Nesta atividade apresentaremos as principais permissões em dispositivos móveis, explicaremos as “ações” utilizadas nas intenções implícitas e exploraremos os sensores disponíveis, incluindo sua finalidade e tipos de retorno. Vamos aprofundar nossa compreensão de como esses elementos se relacionam com o desenvolvimento de aplicativos e experiências móveis.
+    </p>
 </details>
 
 
@@ -52,10 +33,72 @@ Essas características combinadas criam uma experiência atraente e informativa 
 </details>
 
 <details>
-    <summary><h1>Diagrama de Classe</h1></summary>
-	<div align="center">
-		<img src="https://github.com/GustavoHenrique444/EcoManga/assets/127442583/972c3301-44e6-46c7-9965-ad52d8e5339c" width="700px"/>
-	</div>
+    <summary><h1>Tipos de Intents e Suas Finalidades</h1></summary>
+	<Li align =justify><strong>Intent Explicita:</strong> 
+		Intents explícitas são a maneira precisa de conduzir a ação desejada em um dispositivo Android. Eles especificam qual aplicativo será responsável por tratar a intent e fornecem informações como o nome do pacote do aplicativo de destino ou o nome completo da classe do componente. Normalmente, intents explícitas são usadas para lançar componentes dentro do próprio aplicativo, uma vez que sabemos o nome da classe da atividade ou serviço que queremos lançar. Um exemplo prático é quando você deseja iniciar uma nova atividade em resposta a uma ação do usuário, como abrir uma tela de configurações após clicar em um botão específico. Outra aplicação comum é iniciar um serviço para realizar tarefas em segundo plano, como baixar arquivos, sem exigir interação direta do usuário. O uso eficaz de intents explícitas é crucial para o desenvolvimento de aplicativos Android, pois permite identificar as ações necessárias, melhorando a experiência do usuário e garantindo que seu aplicativo funcione de maneira suave e eficiente.
+	</Li>
+	<br>
+
+ 	
+  
+<Li align =justify><strong>Intent Implícita:</strong>
+  	As Intents implícitas têm a característica de não estarem vinculadas a um componente específico, mas sim declarar uma ação geral a ser executada, o que permite que um componente de outra aplicação a trate. Isso proporciona flexibilidade significativa ao ecossistema Android, pois diferentes aplicativos podem responder ao mesmo tipo de intent implícita, proporcionando uma experiência de usuário rica e integrada. Por exemplo, se você quiser exibir um local em um mapa para o usuário, poderá usar uma intent implícita para solicitar que um aplicativo compatível com mapas (como o Google Maps) renderize e exiba um local específico no mapa. Isso significa que você não precisa desenvolver funcionalidades de mapeamento internamente, economizando tempo e recursos e permitindo que os usuários escolham seu aplicativo de mapeamento preferido. As intents implícitas são um componente comum da arquitetura Android que facilita a interação entre aplicativos e promove a reutilização de funcionalidades entre aplicativos, isso aumenta a experiência do usuário e reduz o desenvolvimento de aplicativos mais eficazes e completos.
+</Li>
+<br>
+
+<Li align =justify><strong>Exemplos de Intens:</strong>
+Aqui estão alguns exemplos de como fazer uma intent explicita e implícita
+
+	
+ <h2><strong>Intent Explicita:</strong></h2>
+
+ <h3><strong>Kotlin</strong></h3>
+	// Executed in an Activity, so 'this' is the Context
+// The fileUrl is a string URL, such as "http://www.example.com/image.png"
+val downloadIntent = Intent(this, DownloadService::class.java).apply {
+    data = Uri.parse(fileUrl)
+}
+startService(downloadIntent)
+<br>
+
+<h3><strong>Java</strong></h3>
+// Executed in an Activity, so 'this' is the Context
+// The fileUrl is a string URL, such as "http://www.example.com/image.png"
+Intent downloadIntent = new Intent(this, DownloadService.class);
+downloadIntent.setData(Uri.parse(fileUrl));
+startService(downloadIntent);
+<br>
+
+
+ <h2><strong>Intent Implícita:</strong></h2>
+
+ <h3><strong>Kotlin</strong></h3>
+ // Create the text message with a string
+val sendIntent = Intent().apply {
+    action = Intent.ACTION_SEND
+    putExtra(Intent.EXTRA_TEXT, textMessage)
+    type = "text/plain"
+}
+
+// Verify that the intent will resolve to an activity
+if (sendIntent.resolveActivity(packageManager) != null) {
+    startActivity(sendIntent)
+}
+<br>
+
+<h3><strong>Java</strong></h3>
+// Create the text message with a string
+Intent sendIntent = new Intent();
+sendIntent.setAction(Intent.ACTION_SEND);
+sendIntent.putExtra(Intent.EXTRA_TEXT, textMessage);
+sendIntent.setType("text/plain");
+
+// Verify that the intent will resolve to an activity
+if (sendIntent.resolveActivity(getPackageManager()) != null) {
+    startActivity(sendIntent);
+}
+</Li>
+
 </details>
 
 <details>
@@ -73,8 +116,12 @@ Essas características combinadas criam uma experiência atraente e informativa 
 </details>
 
 <details>
-	<summary><h1>Vídeo mostrando o APP</h1></summary>
-		<div align="center">
+	<summary><h1>Fontes Usadas</h1></summary>
+	<p>
+	Aqui estão as fontes ultilizadas para fazer a realização da pesquisa:
+		https://developer.android.com/guide/components/intents-filters?hl=pt-br#Types
+		https://mariovalney.com/aula-10-como-mudar-de-activity-com-intents/
+	</p>
 	
 </div>
 </details>
