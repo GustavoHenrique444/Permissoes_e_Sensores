@@ -23,13 +23,41 @@ Nesta atividade apresentaremos as principais permissões em dispositivos móveis
 
 
 <details>
-    <summary><h1>Detalhes do Aplicativo</h1></summary>
-    <ul>
-        <li><strong>Versão do Android:</strong> 9.0 (Pie);</li>
-        <li><strong>Número de Telas:</strong> 9;</li>
-        <li><strong>Linguagem de Programação:</strong> Java;</li>
-        <li><strong>IDE</strong> Android Studio;</li>
-    </ul>
+    <summary><h1>Permissões Essenciais e Seus Destinos de Uso</h1></summary>
+   <Li align =justify><strong>1. Permissão de Localização:</strong>
+	(android.permission.ACCESS_FINE_LOCATION e android.permission.ACCESS_COARSE_LOCATION):
+
+Essa permissão é necessária para que o aplicativo consiga acessar informações de localização do dispositivo, como GPS e torres de celular. Ela é muito utilizada em aplicativos de navegação como o Waze e o Google Maps.
+  </li>
+  <br>
+
+  <Li align =justify><strong>2. Permissão de Câmera (android.permission.CAMERA):</strong>
+	  Essa permissão é necessária para que o aplicativo consiga tirar fotos, gravar vídeos, fazer videochamadas. Essa permissão é mais utilizado como aplicativos como o Instagram e Whatsapp.
+  </Li>
+  <br>
+
+
+  <Li align =justify><strong>3. Permissão de Armazenamento (android.permission.READ_EXTERNAL_STORAGE e android.permission.WRITE_EXTERNAL_STORAGE):</strong>
+	  Essa permissão é necessária para que o aplicativo consiga ter acesso e salvar documentos, fotos e arquivos no dispositivo do usuário.
+  </Li>
+  <br>
+
+
+   <Li align =justify><strong>4. Permissão de Microfone (android.permission.RECORD_AUDIO): </strong>
+   	Essa permissão é usada para que o aplicativo tenha acesso ao microfone do usuário, utilizado para gravar áudios, chamadas de voz ou até reconhecimento de fala.
+   </Li>
+   <br>
+
+ <Li align =justify><strong>5. Permissão de Contatos (android.permission.READ_CONTACTS e android.permission.WRITE_CONTACTS):</strong>
+   	Essa permissão garante acesso do aplicativo aos contatos salvos no dispositivo do usuário além de conseguir salvar novos contatos.
+   </Li>
+   <br>
+
+   <Li align =justify><strong>6. Permissão de Telefone (android.permission.CALL_PHONE):
+</strong>
+  	
+É utilizada para que o aplicativo consiga executar chamadas telefônicas a partir do dispositivo usado.
+   </Li>
 </details>
 
 <details>
@@ -102,7 +130,7 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 </details>
 
 <details>
-	<summary><h1>Atualizações</h1></summary>
+	<summary><h1>Sensores de Movimento e Ambiente em Dispositivos</h1></summary>
 	<li align=justify><strong>Tela de Login:</strong> A tela de login é a porta de entrada para os usuários explorarem nosso aplicativo. Ela permite que os usuários criem uma conta para acessar nosso aplicativo e descobrir como funciona o processo de reciclagem de papel e outros materiais. Além disso, ao fazer o login, os usuários também terão acesso aos mangás disponíveis em nossa plataforma, ampliando ainda mais sua experiência no aplicativo. 
         </li>
 	<br>
@@ -116,6 +144,15 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 </details>
 
 <details>
+	<summary><h1>Conclussão</h1></summary>
+	<p>
+	</p>
+	
+
+</details>
+
+
+<details>
 	<summary><h1>Fontes Usadas</h1></summary>
 	<p>
 	Aqui estão as fontes ultilizadas para fazer a realização da pesquisa:
@@ -123,9 +160,12 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 		https://developer.android.com/guide/components/intents-filters?hl=pt-br#Types
 		<br>
 		https://mariovalney.com/aula-10-como-mudar-de-activity-com-intents/
+		<br>
+		https://developer.android.com/guide/topics/sensors/sensors_overview?hl=pt-br
+		https://www.tudocelular.com/curiosidade/noticias/n148775/dica-tutorial-defina-permissoes-apps-android.html#:~:text=Confira%20abaixo%20a%20lista%20de,alterar%20seu%20hist%C3%B3rico%20de%20chamadas
 	</p>
 	
-</div>
+
 </details>
 
 
