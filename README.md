@@ -130,22 +130,82 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 </details>
 
 <details>
-	<summary><h1>Sensores de Movimento e Ambiente em Dispositivos</h1></summary>
-	<li align=justify><strong>Tela de Login:</strong> A tela de login é a porta de entrada para os usuários explorarem nosso aplicativo. Ela permite que os usuários criem uma conta para acessar nosso aplicativo e descobrir como funciona o processo de reciclagem de papel e outros materiais. Além disso, ao fazer o login, os usuários também terão acesso aos mangás disponíveis em nossa plataforma, ampliando ainda mais sua experiência no aplicativo. 
+		<summary><h1>Sensores de Movimento e Ambiente em Dispositivos</h1></summary>
+	<li align=justify><strong>
+Sensor: TYPE_ACCELEROMETER</strong> Descrição: Mede a força de aceleração em m/s² nos três eixos físicos (x, y, z), incluindo a gravidade.  
+Valores Usados: Detecção de movimento (agitação, inclinação, etc.).
         </li>
 	<br>
  
- <Li align=justify><strong>Como Reciclar?:</strong> A tela 'Como Reciclar' foi desenvolvida com o propósito de educar as pessoas sobre a importância da preservação do meio ambiente por meio da reciclagem de diversos materiais, incluindo papel, metais, resíduos orgânicos e muito mais. Essa funcionalidade visa capacitar os usuários a adotar práticas sustentáveis, contribuindo assim para a proteção do nosso planeta e o cuidado com o meio ambiente.
+ <Li align=justify><strong>Sensor: TYPE_AMBIENT_TEMPERATURE</strong>  Descrição: Mede a temperatura ambiente em °C.  
+Valores Usados: Monitoramento das temperaturas do ar.
  </Li>
 	<br>
 	
-<Li align=justify><strong>Outros tipos de materiais:</strong> Nosso aplicativo tem como objetivo central incentivar a reciclagem, com um foco especial no papel, mas reconhecemos que há uma ampla variedade de materiais recicláveis disponíveis. A tela "Recicláveis Diversos" foi projetada para informar aos usuários sobre a diversidade de materiais que podem ser reciclados em nosso planeta. Queremos promover uma compreensão abrangente dos recursos recicláveis, incentivando práticas sustentáveis e uma maior conscientização sobre a importância da reciclagem em nosso ambiente.
+<Li align=justify><strong>Sensor: TYPE_GRAVITY</strong>  Descrição: Mede a força da gravidade em m/s² nos três eixos físicos (x, y, z).  
+Valores Usados: Detecção de movimento (agitação, inclinação, etc.).
 </Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_GYROSCOPE</strong>  Descrição: Mede a taxa de rotação em rad/s em torno dos três eixos físicos (x, y, z).  
+Valores Usados: Detecção de rotação (giro, volta, etc.).
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_LIGHT</strong>  Descrição: Mede o nível de luz ambiente em lx.  
+Valores Usados: Controle do brilho da tela.
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_LINEAR_ACCELERATION</strong>  Descrição: Mede a força de aceleração em m/s² nos três eixos físicos (x, y, z), excluindo a gravidade.  
+Valores Usados: Monitoramento da aceleração em um único eixo.
+
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_MAGNETIC_FIELD</strong>  Descrição: Mede o campo geomagnético para os três eixos físicos (x, y, z) em μT.  
+Valores Usados: Criação de uma bússola.
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_ORIENTATION </strong>  Descrição: Mede os graus de rotação em torno dos três eixos físicos (x, y, z).  
+Valores Usados: Determinação da posição do dispositivo.
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_PRESSURE</strong>   Descrição: Mede a pressão do ar ambiente em hPa ou mbar.  
+Valores Usados: Monitoramento das mudanças na pressão do ar.
+
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_PROXIMITY</strong>  Descrição: Mede a proximidade de um objeto em cm com relação à tela de um dispositivo.  
+Valores Usados: Posição do smartphone durante uma chamada.
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_RELATIVE_HUMIDITY </strong>  Descrição: Mede a umidade relativa do ar em %.  
+Valores Usados: Monitoramento de ponto de condensação, umidade absoluta e relativa.
+
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_ROTATION_VECTOR</strong>  Descrição: Mede a orientação do dispositivo através do vetor de rotação.  
+Valores Usados: Detecção de movimento e de rotação.
+</Li>
+<br>
+
+<Li align=justify><strong>Sensor: TYPE_TEMPERATURE</strong>  Descrição: Mede a temperatura do dispositivo em °C (substituído por TYPE_AMBIENT_TEMPERATURE na API nível 14).  
+Valores Usados: Monitoramento de temperaturas.
+</Li>
+<br>
+
 </details>
 
 <details>
-	<summary><h1>Conclussão</h1></summary>
+	<summary><h1>Conclusão</h1></summary>
 	<p>
+		Em resumo, as permissões, intents e sensores desempenham papéis cruciais no desenvolvimento de aplicativos Android. Permissões garantem acesso controlado a recursos do dispositivo, intents proporcionam ações precisas e integração entre aplicativos, enquanto sensores permitem interação adaptativa ao ambiente físico. Compreender e aplicar esses elementos é essencial para criar aplicativos responsáveis, inovadores e centrados no usuário, promovendo uma experiência mais segura e personalizada.
 	</p>
 	
 
